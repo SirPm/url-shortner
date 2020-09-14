@@ -60,7 +60,7 @@ function shortenLink(e) {
             // Put the link object at the top of the linksArray
             linksArray.unshift(linkObj);
 
-            // loadingDiv.innerHTML = '';
+            loadingDiv.innerHTML = '';
             // Empty out everything in the results div
             result.innerHTML = '';
 
