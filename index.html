@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mediaQueries.css">
+
+    <title>Link Shortner</title>
+</head>
+<body>
+    <header>
+        <div class="logo-and-nav my-container">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="logo">
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <nav class="nav-links hidden">
+                <ul class="page-sections">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                <ul class="login-and-sign-up">
+                    <li><a href="#">Login</a></li>
+                    <li id='signUp'><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-main">
+            <div class="header-text">
+                <h1>More than just shorter links</h1>
+                <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+                <button id="headerBtn" class="get-started">Get Started</button>
+            </div>
+            <div class="header-img">
+                <img src="./images/illustration-working.svg" alt="working">
+            </div>
+        </div>
+    </header>
+    <form action="#">
+        <div class="link-div">
+            <input id="link" type="text" aria-label="linkInput" placeholder="Shorten a link here..." required>
+            <button type="submit" id='shortenLink'>Shorten It!</button>
+        </div>
+    </form>
+    <main>
+        <div class="loading-div"></div>
+        <div class="result"></div>
+        <section id="firstSection">
+            <h2>Advanced Statistics</h2>
+            <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        </section>
+        <section id="cardSection" class="my-container">
+            <hr id="cardLineJoiner">
+            <div class="card" id="firstCard">
+                <div class="card-img">
+                    <img src="./images/icon-brand-recognition.svg" alt="brand">
+                </div>
+                <h4>Brand Recognition</h4>
+                <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+            </div>
+            <div class="card" id="secondCard">
+                <div class="card-img">
+                    <img src="./images/icon-detailed-records.svg" alt="records">
+                </div>
+                <h4>Detailed Records</h4>
+                <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+            </div>
+            <div class="card" id="thirdCard">
+                <div class="card-img">
+                    <img src="./images/icon-fully-customizable.svg" alt="customizable">
+                </div>
+                <h4>Fully Customizable</h4>
+                <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+            </div>
+        </section>
+        <section id="lastMainSection">
+            <h2>Boost your links today.</h2>
+            <button class="get-started">Get Started</button>
+        </section>
+    </main>
+    <footer>
+        <div id="footerDiv" class="my-container">
+            <div class="footer-logo">
+                <img src="./images/logo-footer.svg" alt="logo2">
+            </div>
+            <div class="nav-footer">
+                <div class="features-div">
+                    <ul>
+                        <li class="footer-link-heading"><a href="#">Features</a></li>
+                        <li><a href="#">Link Shortening</a></li>
+                        <li><a href="#">Branded Links</a></li>
+                        <li><a href="#">Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="resources-div">
+                    <ul>
+                        <li class="footer-link-heading"><a href="#">Resources</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="company-div">
+                    <ul>
+                        <li class="footer-link-heading"><a href="#">Company</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>  
+                </div>
+                <div class="social-icons">
+                    <div><img src="./images/icon-facebook.svg" alt="fb"></div>
+                    <div><img src="./images/icon-twitter.svg" alt="twitter"></div>
+                    <div><img src="./images/icon-pinterest.svg" alt="pinterest"></div>
+                    <div><img src="./images/icon-instagram.svg" alt="insta"></div>
+                </div>
+            </div>
+        </div>
+        <div class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="https://github.com/SirPm">Pelumi a.k.a Lupeim</a>.
+            </p>
+        </div>
+    </footer>
+    
+    <script src='./app.js'></script>
+</body>
+</html>

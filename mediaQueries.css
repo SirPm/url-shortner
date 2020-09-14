@@ -1,0 +1,424 @@
+/********************
+    Mobile Design
+********************/
+
+@media screen and (max-width: 600px) {
+
+    /** Nav Section **/
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .active {
+        display: block;
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        background-color: var(--dark-violet);
+        z-index: 2;
+        border-radius: 10px;
+        padding: 2.2rem;
+        height: 64vh;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 2.2rem;
+    }
+
+    .login-and-sign-up li a, .page-sections li a, #signUp a {
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .login-and-sign-up:nth-child(2) {
+        margin-top: 2.2rem;
+    }
+
+    .page-sections {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid var(--grey);
+    }
+
+    .login-and-sign-up {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 100%;
+    }
+
+    #signUp {
+        width: 100%;
+        height: 8vh;
+        border-radius: 1.6rem;
+    }
+
+    .logo-and-nav {
+        position: relative;
+    }
+
+    .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    /** Main Header Section **/
+
+    .header-main {
+        flex-direction: column-reverse;
+    }
+
+    .header-img {
+        width: 100%;
+        transform: translateX(15%);
+    }
+
+    .header-text {
+        width: 90%;
+        margin: auto;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .header-text p {
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 1rem auto;
+    }
+
+    #headerBtn {
+        padding: 0.8rem 0.1rem;
+        width: 35vw;
+        margin: auto;
+        height: 6vh;
+    }
+
+    form {
+        height: 25vh;
+    }
+
+    .link-div {
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-around;
+    }
+
+    .error-msg {
+        padding: 0;
+        margin-top: -0.7rem;
+        position: absolute;    
+    }
+
+    .loading-text {
+        padding-top: 4rem;
+    }
+
+    .result {
+        padding-top: 6rem;
+    }
+
+    .result div {
+        height: fit-content;
+        padding: 1.2rem;
+    }
+
+    #link, #shortenLink {
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .originalLink {
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 1.1rem;
+        color: var(--very-dark-blue);
+        border-bottom: 1px solid var(--grey);
+        padding-bottom: 1rem;
+    }
+
+    .result div .inputLink {
+        position: relative;
+        right: 0;
+        top: 0;
+        font-size: 1.1rem;
+        display: block;
+        padding: 0.7rem 1.2rem;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .copy {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        display: block;
+        margin: auto;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+
+
+    /** First Section **/
+
+    #firstSection h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #firstSection p {
+        width: 85%;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+
+
+    /** Card Section **/
+
+    #cardSection {
+        flex-direction: column;
+    }
+
+    #cardLineJoiner {
+        transform: rotate(90deg);
+        top: 23rem;
+    }
+
+    .card {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    .card-img {
+        margin: -2rem auto;
+        margin-bottom: 1.7rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .card h4 {
+        margin-top: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .card h4, .card p {
+        text-align: center;
+    }
+
+    #secondCard, #thirdCard {
+        margin-top: 0rem;
+    }
+
+
+
+    /** Last Main Section **/
+
+    #lastMainSection button {
+        width: 20vw;
+        padding: 0;
+    }
+
+
+    /** Footer Section **/
+
+    #footerDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 3.5rem;
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .features-div, .resources-div, .company-div {
+        margin-bottom: 2rem;
+    }
+
+    .social-icons {
+        width: 70%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .originalLink, .result div .inputLink, .copy {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .active {
+        height: 55vh;
+        padding: 1.7rem;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 1.7rem;
+    }
+
+    .login-and-sign-up:nth-child(2) {
+        margin-top: 1.7rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .active {
+        height: 45vh;
+        padding: 1.2rem;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 1.2rem;
+    }
+
+    .login-and-sign-up:nth-child(2) {
+        margin-top: 1.2rem;
+    }
+
+    #signUp {
+        height: 7vh;
+        border-radius: 1.6rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+    .active {
+        height: 40vh;
+        padding: 1rem;
+    }
+
+    .nav-links ul li {
+        margin-bottom: 1rem;
+    }
+
+    .login-and-sign-up:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    #signUp {
+        height: 6vh;
+        border-radius: 1.4rem;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .social-icons div img {
+        width: 70%;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 830px) {
+
+    .login-and-sign-up {
+        width: 8rem;
+    }
+
+    #signUp {
+        padding: 0;
+    }
+
+    .header-text p {
+        width: 100%;
+        margin-top: 5%;
+        font-size: 0.9rem;
+    }
+    
+    .get-started {
+        padding: 0;
+        width: 17vw;
+    }
+
+    #link, #shortenLink {
+        height: 2.5rem;
+    }
+
+    .card h4 {
+        font-size: 0.8rem;
+    }
+
+    .card p {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .nav-footer {
+        width: 70%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+
+    #firstSection p {
+        width: 50%;
+    }
+
+    .card {
+        padding: 0.5rem;
+    }
+
+    .card h4 {
+        margin-top: 1rem;
+    }
+
+    .nav-footer ul li a {
+        font-size: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 435px) {
+
+    #cardLineJoiner {
+        width: 250%;
+        left: -75%;
+    }
+
+    #lastMainSection button {
+        width: 25vw;
+    }
+
+    .attribution p {
+        font-size: 0.7rem;
+        text-align: center;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+
+    #cardLineJoiner {
+        width: 400%;
+        left: -150%;
+        top: 30rem;
+    }
+
+    #lastMainSection button {
+        width: 30vw;
+    }
+
+}
