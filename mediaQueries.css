@@ -57,7 +57,7 @@
 
     #signUp {
         width: 100%;
-        height: 8vh;
+        /* height: 8vh; */
         border-radius: 1.6rem;
     }
 
@@ -103,9 +103,9 @@
         height: 6vh;
     }
 
-    form {
+    /* form {
         height: 25vh;
-    }
+    } */
 
     .link-div {
         flex-direction: column;
@@ -134,7 +134,11 @@
 
     #link, #shortenLink {
         width: 100%;
-        height: 2.5rem;
+        /* height: 2.5rem; */
+    }
+
+    #shortenLink {
+        padding: 10px 20px;
     }
 
     .originalLink {
@@ -226,8 +230,8 @@
     /** Last Main Section **/
 
     #lastMainSection button {
-        width: 20vw;
-        padding: 0;
+        /* width: 20vw; */
+        padding: 10px 20px;
     }
 
 
@@ -296,7 +300,7 @@
     }
 
     #signUp {
-        height: 7vh;
+        /* height: 7vh; */
         border-radius: 1.6rem;
     }
 }
@@ -316,7 +320,7 @@
     }
 
     #signUp {
-        height: 6vh;
+        /* height: 6vh; */
         border-radius: 1.4rem;
     }
 }
@@ -337,9 +341,9 @@
         width: 8rem;
     }
 
-    #signUp {
+    /* #signUp {
         padding: 0;
-    }
+    } */
 
     .header-text p {
         width: 100%;
@@ -347,14 +351,14 @@
         font-size: 0.9rem;
     }
     
-    .get-started {
+    /* .get-started {
         padding: 0;
         width: 17vw;
-    }
+    } */
 
-    #link, #shortenLink {
+    /* #link, #shortenLink {
         height: 2.5rem;
-    }
+    } */
 
     .card h4 {
         font-size: 0.8rem;
@@ -397,9 +401,9 @@
         left: -75%;
     }
 
-    #lastMainSection button {
+    /* #lastMainSection button {
         width: 25vw;
-    }
+    } */
 
     .attribution p {
         font-size: 0.7rem;

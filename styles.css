@@ -48,7 +48,7 @@ p {
 ********************/
 
 .logo-and-nav {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     align-items: center;
 }
@@ -106,12 +106,12 @@ nav ul li a:hover {
     border: 0.1rem solid var(--cyan);
     background: var(--cyan);
     border-radius: 1.2rem;
-    padding: 0.1rem 0.7rem;
+    padding: 0.3rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5vh;
-    width: 9vw;
+    /* height: 5vh;
+    width: 9vw; */
     opacity: 1;
     cursor: pointer;
 }
@@ -156,12 +156,12 @@ nav ul li a:hover {
     border: 0.1rem solid var(--cyan);
     background: var(--cyan);
     border-radius: 1.2rem;
-    padding: 0.1rem 0.7rem;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 6vh;
-    width: 12vw;
+    /* height: 6vh;
+    width: 12vw; */
     color: white;
     opacity: 1;
     cursor: pointer;
@@ -182,8 +182,9 @@ nav ul li a:hover {
 
 form {
     background-color: var(--dark-violet);
-    height: 20vh;
+    /* height: 20vh; */
     width: 80%;
+    padding: 20px;
     margin: 0% auto;
     transform: translateY(50%);
     border-radius: 0.5rem;
@@ -218,7 +219,7 @@ input:focus {
 .loading-text {
     color: var(--cyan);
     width: fit-content;
-    padding-top: 2.8rem;
+    padding-top: 1.4rem;
     margin: 0 auto;
     z-index: -3;
     font-style: italic;
@@ -275,15 +276,15 @@ input:focus {
 }
 
 #link {
-    height: 3rem; 
+    /* height: 3rem;  */
     border: 1px solid var(--dark-violet);
     border-radius: 0.5rem;
     width: 77%;   
-    padding: 1rem 1.5rem;
+    padding: 10px 20px;
 }
 
 #shortenLink {
-    height: 3rem;
+    /* height: 3rem; */
     border: 1px solid var(--cyan);
     border-radius: 0.5rem;
     width: 20%;
@@ -392,7 +393,7 @@ main {
     width: 100%;
     background-color: var(--cyan);
     border: 0.1rem solid var(--cyan);
-    height: 1vh;
+    height: 5px;
     top: 7rem;
 }
 
@@ -405,7 +406,8 @@ main {
 #lastMainSection {
     background-color: hsl(259, 35%, 27%);
     background-image: url('./images/bg-boost-desktop.svg');
-    height: 30vh;
+    /* height: 30vh; */
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
